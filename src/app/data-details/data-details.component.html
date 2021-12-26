@@ -1,0 +1,20 @@
+<p>data-details works!</p>
+<table class="table table-success table-striped table-hover">
+  <thead>
+    <tr>
+
+      <th scope="col">Fruits</th>
+      <th scope="col">Quantity</th>
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor ="let data of datas">
+      <td>{{data.fruitname}}</td>
+      <td>{{data.fruitquantity}}</td>
+
+
+    </tr>
+
+  </tbody>
+</table>
