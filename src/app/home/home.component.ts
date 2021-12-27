@@ -29,12 +29,12 @@ export class HomeComponent implements OnInit {
     responsive: true,
   };
 
-  barChartLabels: Label[] = ['Apple', 'Banana', 'Kiwifruit', 'Blueberry', 'Orange', 'Grapes'];
+  barChartLabels: Label[] = ['GMB', 'Website', 'Referals', 'Paid', 'Social Media', 'Digital Marketing'];
   barChartType: ChartType = 'bar';
   barChartLegend = true;
   barChartPlugins = [];
   barChartData: ChartDataSets[] = [
-    { data: [45, 37, 60, 70, 46, 33], label: 'Best Fruits' }
+    { data: [45, 37, 60, 70, 46, 33], label: 'Best Lead Source of the Month' }
   ];
 }
 

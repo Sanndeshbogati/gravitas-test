@@ -12,14 +12,14 @@ export class DataDetailsComponent implements OnInit {
   ngOnInit(): void {
   }
   data= [45, 37, 60, 70, 46, 33];
-  fruits = ['Apple', 'Banana', 'Kiwifruit', 'Blueberry', 'Orange', 'Grapes'];
+  fruits = ['GMB', 'Website', 'Referals', 'Paid', 'Social Media', 'Digital Marketing'];
 
-  datas =[ {fruitname:"apple",fruitquantity:45},
-  {fruitname:'Orange',fruitquantity:37},
-  {fruitname:'Banana',fruitquantity:60},
-  {fruitname:'Kiwifruit',fruitquantity:70},
-  {fruitname:'Blueberry',fruitquantity:46},
-  {fruitname:'Grapes',fruitquantity:33},
+  datas =[ {fruitname:"Google My Business",fruitquantity:45},
+  {fruitname:'Website',fruitquantity:37},
+  {fruitname:'Referals',fruitquantity:60},
+  {fruitname:'Paid',fruitquantity:70},
+  {fruitname:'Social Media',fruitquantity:46},
+  {fruitname:'Digital Marketing',fruitquantity:33},
 
 ]
 

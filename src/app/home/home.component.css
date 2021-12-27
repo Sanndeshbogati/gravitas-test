@@ -11,12 +11,10 @@
 }
 .row_back
 {
-  background-color: paleturquoise;
+  background-color: #134f5c;
 }
 .container{
-  background-color: paleturquoise ;
-
-
+  background-color: #134f5c ;
 
 }
 .button {
@@ -56,4 +54,14 @@
   content: "";
   display: table;
   clear: both;
+}
+
+.row
+{
+  padding:15px;
+  justify-content: space-evenly;
+}
+p,h1
+{
+  color:beige
 }
